@@ -1,0 +1,7 @@
+/local/db/data
+.idea
+
+.idea/
+/src/.env
+/local/db/data/*
+!/local/db/data/.gitkeep
