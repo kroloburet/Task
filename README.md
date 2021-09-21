@@ -6,9 +6,9 @@
 Каталог `local` содержит каталоги и файлы для сервера и БД, а в `src` следует размещать исходники твоего проекта.
 Например, чтобы развернуть проект на Laravel, перейди в каталог `src` и выполни
    ```
-   rm -rf ./public
-   && composer create-project laravel/laravel .
-   && cd .. 
+   rm -rf ./public \
+   && composer create-project laravel/laravel . \
+   && cd .. \
    && docker-compose up -d
    ```
 Перейди по адресу `localhost:8000`
@@ -32,9 +32,9 @@
 ### Установка
 1. В консоли перейди в каталог куда будет клонирован корневой каталог проекта и выполни:
    ```
-   git clone https://github.com/kroloburet/Task.git
-   && cd ./Task 
-   && git checkout -b dev
+   git clone https://github.com/kroloburet/Task.git \
+   && cd ./Task \
+   && git checkout -b dev \
    && docker-compose up -d --build
    ```
 2. Перейди по адресу `localhost:8000`
