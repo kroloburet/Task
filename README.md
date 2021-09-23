@@ -32,7 +32,7 @@
 ### Установка
 1. В консоли перейди в каталог куда будет клонирован корневой каталог проекта и выполни:
    ```
-   git clone https://github.com/kroloburet/Task.git \
+   git clone --depth 1 https://github.com/kroloburet/Task.git \
    && cd ./Task \
    && git checkout -b dev \
    && docker-compose up -d --build
